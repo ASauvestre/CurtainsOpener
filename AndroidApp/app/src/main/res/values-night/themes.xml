@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Curtains" parent="Theme.CurtainsBase">
+        <item name="android:colorBackground">@color/light_grey</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="MyActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/teal_200</item>
+    </style>
+</resources>
